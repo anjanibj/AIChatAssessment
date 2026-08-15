@@ -59,37 +59,8 @@ AIChatAssessment/
 └── README.md
 ```
 
-## How to Run the Project in VS Code
 
-### 1. Open the Project
-
-Open the `AIChatAssessment` folder in Visual Studio Code.
-
-### 2. Install Frontend Dependencies
-
-Open the VS Code terminal:
-
-```bash
-npm install
-```
-
-### 3. Configure Gemini API
-
-Create the following file:
-
-```text
-server/.env
-```
-
-Add your Gemini API key:
-
-```env
-GEMINI_API_KEY=your_api_key_here
-```
-
-**Do not upload the `.env` file to GitHub.**
-
-### 4. Run the Backend
+### 1. Run the Backend
 
 Open **Terminal 1** in VS Code.
 
@@ -108,7 +79,7 @@ http://localhost:3001
 
 Keep this terminal running.
 
-### 5. Run the Expo Frontend
+### 2. Run the Expo Frontend
 
 Open a **new Terminal 2** in VS Code.
 
